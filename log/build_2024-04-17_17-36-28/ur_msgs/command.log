@@ -1,0 +1,8 @@
+Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake /home/camillo/workspace/Learning/src/ur_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/camillo/workspace/Learning/install/ur_msgs
+Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake /home/camillo/workspace/Learning/src/ur_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/camillo/workspace/Learning/install/ur_msgs
+Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs -- -j32 -l32
+Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs -- -j32 -l32
+Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs --target tests -- -j32 -l32
+Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs --target tests -- -j32 -l32
+Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --install /home/camillo/workspace/Learning/build/ur_msgs
+Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --install /home/camillo/workspace/Learning/build/ur_msgs

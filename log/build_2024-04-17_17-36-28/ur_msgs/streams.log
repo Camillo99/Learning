@@ -1,0 +1,262 @@
+[0.019s] Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake /home/camillo/workspace/Learning/src/ur_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/camillo/workspace/Learning/install/ur_msgs
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.344s] -- Using CATKIN_DEVEL_PREFIX: /home/camillo/workspace/Learning/build/ur_msgs/devel
+[0.344s] -- Using CMAKE_PREFIX_PATH: /home/camillo/workspace/Learning/install/ur_msgs;/home/camillo/noetic_ws/devel_isolated/xacro;/home/camillo/noetic_ws/devel_isolated/visualization_marker_tutorials;/home/camillo/noetic_ws/devel_isolated/urdf_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz_python_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz_plugin_tutorials;/home/camillo/noetic_ws/devel_isolated/rqt_rviz;/home/camillo/noetic_ws/devel_isolated/librviz_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz;/home/camillo/noetic_ws/devel_isolated/robot_state_publisher;/home/camillo/noetic_ws/devel_isolated/kdl_parser;/home/camillo/noetic_ws/devel_isolated/urdf;/home/camillo/noetic_ws/devel_isolated/turtle_tf2;/home/camillo/noetic_ws/devel_isolated/turtle_tf;/home/camillo/noetic_ws/devel_isolated/turtle_actionlib;/home/camillo/noetic_ws/devel_isolated/turtlesim;/home/camillo/noetic_ws/devel_isolated/tf_conversions;/home/camillo/noetic_ws/devel_isolated/tf2_kdl;/home/camillo/noetic_ws/devel_isolated/laser_geometry;/home/camillo/noetic_ws/devel_isolated/interactive_marker_tutorials;/home/camillo/noetic_ws/devel_isolated/interactive_markers;/home/camillo/noetic_ws/devel_isolated/tf2_geometry_msgs;/home/camillo/noetic_ws/devel_isolated/tf;/home/camillo/noetic_ws/devel_isolated/tf2_ros;/home/camillo/noetic_ws/devel_isolated/stereo_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_image_view;/home/camillo/noetic_ws/devel_isolated/map_msgs;/home/camillo/noetic_ws/devel_isolated/image_transport;/home/camillo/noetic_ws/devel_isolated/cv_bridge;/home/camillo/noetic_ws/devel_isolated/sensor_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_launch;/home/camillo/noetic_ws/devel_isolated/roswtf;/home/camillo/noetic_ws/devel_isolated/nodelet_topic_tools;/home/camillo/noetic_ws/devel_isolated/diagnostic_analysis;/home/camillo/noetic_ws/devel_isolated/actionlib_tutorials;/home/camillo/noetic_ws/devel_isolated/actionlib;/home/camillo/noetic_ws/devel_isolated/rosbag;/home/camillo/noetic_ws/devel_isolated/topic_tools;/home/camillo/noetic_ws/devel_isolated/tf2_py;/home/camillo/noetic_ws/devel_isolated/smach_ros;/home/camillo/noetic_ws/devel_isolated/self_test;/home/camillo/noetic_ws/devel_isolated/rqt_reconfigure;/home/camillo/noetic_ws/devel_isolated/rqt_gui_py;/home/camillo/noetic_ws/devel_isolated/rqt_gui_cpp;/home/camillo/noetic_ws/devel_isolated/rostopic;/home/camillo/noetic_ws/devel_isolated/rospy_tutorials;/home/camillo/noetic_ws/devel_isolated/rosnode;/home/camillo/noetic_ws/devel_isolated/rosmsg;/home/camillo/noetic_ws/devel_isolated/rosbag_storage;/home/camillo/noetic_ws/devel_isolated/message_filters;/home/camillo/noetic_ws/devel_isolated/joint_state_publisher;/home/camillo/noetic_ws/devel_isolated/filters;/home/camillo/noetic_ws/devel_isolated/dynamic_reconfigure;/home/camillo/noetic_ws/devel_isolated/diagnostic_common_diagnostics;/home/camillo/noetic_ws/devel_isolated/diagnostic_updater;/home/camillo/noetic_ws/devel_isolated/diagnostic_aggregator;/home/camillo/noetic_ws/devel_isolated/rosout;/home/camillo/noetic_ws/devel_isolated/roscpp_tutorials;/home/camillo/noetic_ws/devel_isolated/pluginlib_tutorials;/home/camillo/noetic_ws/devel_isolated/nodelet_tutorial_math;/home/camillo/noetic_ws/devel_isolated/nodelet;/home/camillo/noetic_ws/devel_isolated/bondpy;/home/camillo/noetic_ws/devel_isolated/bondcpp;/home/camillo/noetic_ws/devel_isolated/roscpp;/home/camillo/noetic_ws/devel_isolated/xmlrpcpp;/home/camillo/noetic_ws/devel_isolated/webkit_dependency;/home/camillo/noetic_ws/devel_isolated/viz;/home/camillo/noetic_ws/devel_isolated/visualization_tutorials;/home/camillo/noetic_ws/devel_isolated/visualization_msgs;/home/camillo/noetic_ws/devel_isolated/urdf_parser_plugin;/home/camillo/noetic_ws/devel_isolated/control_msgs;/home/camillo/noetic_ws/devel_isolated/trajectory_msgs;/home/camillo/noetic_ws/devel_isolated/tf2;/home/camillo/noetic_ws/devel_isolated/tf2_msgs;/home/camillo/noetic_ws/devel_isolated/std_srvs;/home/camillo/noetic_ws/devel_isolated/smach_msgs;/home/camillo/noetic_ws/devel_isolated/shape_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_py_common;/home/camillo/noetic_ws/devel_isolated/rosgraph_msgs;/home/camillo/noetic_ws/devel_isolated/nav_msgs;/home/camillo/noetic_ws/devel_isolated/kdl_conversions;/home/camillo/noetic_ws/devel_isolated/eigen_conversions;/home/camillo/noetic_ws/devel_isolated/geometry_msgs;/home/camillo/noetic_ws/devel_isolated/diagnostic_msgs;/home/camillo/noetic_ws/devel_isolated/bond;/home/camillo/noetic_ws/devel_isolated/actionlib_msgs;/home/camillo/noetic_ws/devel_isolated/std_msgs;/home/camillo/noetic_ws/devel_isolated/smclib;/home/camillo/noetic_ws/devel_isolated/smach;/home/camillo/noetic_ws/devel_isolated/rqt_web;/home/camillo/noetic_ws/devel_isolated/rqt_topic;/home/camillo/noetic_ws/devel_isolated/rqt_top;/home/camillo/noetic_ws/devel_isolated/rqt_tf_tree;/home/camillo/noetic_ws/devel_isolated/rqt_srv;/home/camillo/noetic_ws/devel_isolated/rqt_shell;/home/camillo/noetic_ws/devel_isolated/rqt_service_caller;/home/camillo/noetic_ws/devel_isolated/rqt_runtime_monitor;/home/camillo/noetic_ws/devel_isolated/rqt_robot_steering;/home/camillo/noetic_ws/devel_isolated/rqt_robot_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_robot_monitor;/home/camillo/noetic_ws/devel_isolated/rqt_robot_dashboard;/home/camillo/noetic_ws/devel_isolated/rqt_py_console;/home/camillo/noetic_ws/devel_isolated/rqt_publisher;/home/camillo/noetic_ws/devel_isolated/rqt_pose_view;/home/camillo/noetic_ws/devel_isolated/rqt_plot;/home/camillo/noetic_ws/devel_isolated/rqt_nav_view;/home/camillo/noetic_ws/devel_isolated/rqt_msg;/home/camillo/noetic_ws/devel_isolated/rqt_moveit;/home/camillo/noetic_ws/devel_isolated/rqt_logger_level;/home/camillo/noetic_ws/devel_isolated/rqt_gui;/home/camillo/noetic_ws/devel_isolated/rqt_graph;/home/camillo/noetic_ws/devel_isolated/rqt_dep;/home/camillo/noetic_ws/devel_isolated/rqt_console;/home/camillo/noetic_ws/devel_isolated/rqt_common_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_bag_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_bag;/home/camillo/noetic_ws/devel_isolated/rqt_action;/home/camillo/noetic_ws/devel_isolated/rostest;/home/camillo/noetic_ws/devel_isolated/roslz4;/home/camillo/noetic_ws/devel_isolated/rosconsole_bridge;/home/camillo/noetic_ws/devel_isolated/resource_retriever;/home/camillo/noetic_ws/devel_isolated/qt_gui_cpp;/home/camillo/noetic_ws/devel_isolated/pluginlib;/home/camillo/noetic_ws/devel_isolated/rosconsole;/home/camillo/noetic_ws/devel_isolated/angles;/home/camillo/noetic_ws/devel_isolated/rosunit;/home/camillo/noetic_ws/devel_isolated/roslaunch;/home/camillo/noetic_ws/devel_isolated/python_qt_binding;/home/camillo/noetic_ws/devel_isolated/roscpp_serialization;/home/camillo/noetic_ws/devel_isolated/rostime;/home/camillo/noetic_ws/devel_isolated/rosservice;/home/camillo/noetic_ws/devel_isolated/rospy;/home/camillo/noetic_ws/devel_isolated/rosparam;/home/camillo/noetic_ws/devel_isolated/roslib;/home/camillo/noetic_ws/devel_isolated/rospack;/home/camillo/noetic_ws/devel_isolated/rosmaster;/home/camillo/noetic_ws/devel_isolated/rosmake;/home/camillo/noetic_ws/devel_isolated/roslisp;/home/camillo/noetic_ws/devel_isolated/roslint;/home/camillo/noetic_ws/devel_isolated/roslang;/home/camillo/noetic_ws/devel_isolated/rosgraph;/home/camillo/noetic_ws/devel_isolated/roscreate;/home/camillo/noetic_ws/devel_isolated/roscpp_traits;/home/camillo/noetic_ws/devel_isolated/roscpp_core;/home/camillo/noetic_ws/devel_isolated/rosclean;/home/camillo/noetic_ws/devel_isolated/rosbuild;/home/camillo/noetic_ws/devel_isolated/rosboost_cfg;/home/camillo/noetic_ws/devel_isolated/rosbash;/home/camillo/noetic_ws/devel_isolated/rosbag_migration_rule;/home/camillo/noetic_ws/devel_isolated/ros_tutorials;/home/camillo/noetic_ws/devel_isolated/ros_environment;/home/camillo/noetic_ws/devel_isolated/ros_core;/home/camillo/noetic_ws/devel_isolated/ros_comm;/home/camillo/noetic_ws/devel_isolated/ros_base;/home/camillo/noetic_ws/devel_isolated/ros;/home/camillo/noetic_ws/devel_isolated/robot;/home/camillo/noetic_ws/devel_isolated/qwt_dependency;/home/camillo/noetic_ws/devel_isolated/qt_gui_py_common;/home/camillo/noetic_ws/devel_isolated/qt_gui;/home/camillo/noetic_ws/devel_isolated/qt_dotgraph;/home/camillo/noetic_ws/devel_isolated/nodelet_core;/home/camillo/noetic_ws/devel_isolated/mk;/home/camillo/noetic_ws/devel_isolated/message_runtime;/home/camillo/noetic_ws/devel_isolated/message_generation;/home/camillo/noetic_ws/devel_isolated/media_export;/home/camillo/noetic_ws/devel_isolated/joint_state_publisher_gui;/home/camillo/noetic_ws/devel_isolated/gl_dependency;/home/camillo/noetic_ws/devel_isolated/geometry_tutorials;/home/camillo/noetic_ws/devel_isolated/geometry;/home/camillo/noetic_ws/devel_isolated/executive_smach;/home/camillo/noetic_ws/devel_isolated/diagnostics;/home/camillo/noetic_ws/devel_isolated/desktop;/home/camillo/noetic_ws/devel_isolated/cpp_common;/home/camillo/noetic_ws/devel_isolated/common_tutorials;/home/camillo/noetic_ws/devel_isolated/common_msgs;/home/camillo/noetic_ws/devel_isolated/class_loader;/home/camillo/noetic_ws/devel_isolated/cmake_modules;/home/camillo/noetic_ws/devel_isolated/bond_core;/home/camillo/noetic_ws/devel_isolated/genpy;/home/camillo/noetic_ws/devel_isolated/gennodejs;/home/camillo/noetic_ws/devel_isolated/genlisp;/home/camillo/noetic_ws/devel_isolated/geneus;/home/camillo/noetic_ws/devel_isolated/gencpp;/home/camillo/noetic_ws/devel_isolated/genmsg;/home/camillo/noetic_ws/devel_isolated/catkin
+[0.347s] -- This workspace overlays: /home/camillo/noetic_ws/devel_isolated/xacro;/home/camillo/noetic_ws/devel_isolated/visualization_marker_tutorials;/home/camillo/noetic_ws/devel_isolated/urdf_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz_python_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz_plugin_tutorials;/home/camillo/noetic_ws/devel_isolated/rqt_rviz;/home/camillo/noetic_ws/devel_isolated/librviz_tutorial;/home/camillo/noetic_ws/devel_isolated/rviz;/home/camillo/noetic_ws/devel_isolated/robot_state_publisher;/home/camillo/noetic_ws/devel_isolated/kdl_parser;/home/camillo/noetic_ws/devel_isolated/urdf;/home/camillo/noetic_ws/devel_isolated/turtle_tf2;/home/camillo/noetic_ws/devel_isolated/turtle_tf;/home/camillo/noetic_ws/devel_isolated/turtle_actionlib;/home/camillo/noetic_ws/devel_isolated/turtlesim;/home/camillo/noetic_ws/devel_isolated/tf_conversions;/home/camillo/noetic_ws/devel_isolated/tf2_kdl;/home/camillo/noetic_ws/devel_isolated/laser_geometry;/home/camillo/noetic_ws/devel_isolated/interactive_marker_tutorials;/home/camillo/noetic_ws/devel_isolated/interactive_markers;/home/camillo/noetic_ws/devel_isolated/tf2_geometry_msgs;/home/camillo/noetic_ws/devel_isolated/tf;/home/camillo/noetic_ws/devel_isolated/tf2_ros;/home/camillo/noetic_ws/devel_isolated/stereo_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_image_view;/home/camillo/noetic_ws/devel_isolated/map_msgs;/home/camillo/noetic_ws/devel_isolated/image_transport;/home/camillo/noetic_ws/devel_isolated/cv_bridge;/home/camillo/noetic_ws/devel_isolated/sensor_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_launch;/home/camillo/noetic_ws/devel_isolated/roswtf;/home/camillo/noetic_ws/devel_isolated/nodelet_topic_tools;/home/camillo/noetic_ws/devel_isolated/diagnostic_analysis;/home/camillo/noetic_ws/devel_isolated/actionlib_tutorials;/home/camillo/noetic_ws/devel_isolated/actionlib;/home/camillo/noetic_ws/devel_isolated/rosbag;/home/camillo/noetic_ws/devel_isolated/topic_tools;/home/camillo/noetic_ws/devel_isolated/tf2_py;/home/camillo/noetic_ws/devel_isolated/smach_ros;/home/camillo/noetic_ws/devel_isolated/self_test;/home/camillo/noetic_ws/devel_isolated/rqt_reconfigure;/home/camillo/noetic_ws/devel_isolated/rqt_gui_py;/home/camillo/noetic_ws/devel_isolated/rqt_gui_cpp;/home/camillo/noetic_ws/devel_isolated/rostopic;/home/camillo/noetic_ws/devel_isolated/rospy_tutorials;/home/camillo/noetic_ws/devel_isolated/rosnode;/home/camillo/noetic_ws/devel_isolated/rosmsg;/home/camillo/noetic_ws/devel_isolated/rosbag_storage;/home/camillo/noetic_ws/devel_isolated/message_filters;/home/camillo/noetic_ws/devel_isolated/joint_state_publisher;/home/camillo/noetic_ws/devel_isolated/filters;/home/camillo/noetic_ws/devel_isolated/dynamic_reconfigure;/home/camillo/noetic_ws/devel_isolated/diagnostic_common_diagnostics;/home/camillo/noetic_ws/devel_isolated/diagnostic_updater;/home/camillo/noetic_ws/devel_isolated/diagnostic_aggregator;/home/camillo/noetic_ws/devel_isolated/rosout;/home/camillo/noetic_ws/devel_isolated/roscpp_tutorials;/home/camillo/noetic_ws/devel_isolated/pluginlib_tutorials;/home/camillo/noetic_ws/devel_isolated/nodelet_tutorial_math;/home/camillo/noetic_ws/devel_isolated/nodelet;/home/camillo/noetic_ws/devel_isolated/bondpy;/home/camillo/noetic_ws/devel_isolated/bondcpp;/home/camillo/noetic_ws/devel_isolated/roscpp;/home/camillo/noetic_ws/devel_isolated/xmlrpcpp;/home/camillo/noetic_ws/devel_isolated/webkit_dependency;/home/camillo/noetic_ws/devel_isolated/viz;/home/camillo/noetic_ws/devel_isolated/visualization_tutorials;/home/camillo/noetic_ws/devel_isolated/visualization_msgs;/home/camillo/noetic_ws/devel_isolated/urdf_parser_plugin;/home/camillo/noetic_ws/devel_isolated/control_msgs;/home/camillo/noetic_ws/devel_isolated/trajectory_msgs;/home/camillo/noetic_ws/devel_isolated/tf2;/home/camillo/noetic_ws/devel_isolated/tf2_msgs;/home/camillo/noetic_ws/devel_isolated/std_srvs;/home/camillo/noetic_ws/devel_isolated/smach_msgs;/home/camillo/noetic_ws/devel_isolated/shape_msgs;/home/camillo/noetic_ws/devel_isolated/rqt_py_common;/home/camillo/noetic_ws/devel_isolated/rosgraph_msgs;/home/camillo/noetic_ws/devel_isolated/nav_msgs;/home/camillo/noetic_ws/devel_isolated/kdl_conversions;/home/camillo/noetic_ws/devel_isolated/eigen_conversions;/home/camillo/noetic_ws/devel_isolated/geometry_msgs;/home/camillo/noetic_ws/devel_isolated/diagnostic_msgs;/home/camillo/noetic_ws/devel_isolated/bond;/home/camillo/noetic_ws/devel_isolated/actionlib_msgs;/home/camillo/noetic_ws/devel_isolated/std_msgs;/home/camillo/noetic_ws/devel_isolated/smclib;/home/camillo/noetic_ws/devel_isolated/smach;/home/camillo/noetic_ws/devel_isolated/rqt_web;/home/camillo/noetic_ws/devel_isolated/rqt_topic;/home/camillo/noetic_ws/devel_isolated/rqt_top;/home/camillo/noetic_ws/devel_isolated/rqt_tf_tree;/home/camillo/noetic_ws/devel_isolated/rqt_srv;/home/camillo/noetic_ws/devel_isolated/rqt_shell;/home/camillo/noetic_ws/devel_isolated/rqt_service_caller;/home/camillo/noetic_ws/devel_isolated/rqt_runtime_monitor;/home/camillo/noetic_ws/devel_isolated/rqt_robot_steering;/home/camillo/noetic_ws/devel_isolated/rqt_robot_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_robot_monitor;/home/camillo/noetic_ws/devel_isolated/rqt_robot_dashboard;/home/camillo/noetic_ws/devel_isolated/rqt_py_console;/home/camillo/noetic_ws/devel_isolated/rqt_publisher;/home/camillo/noetic_ws/devel_isolated/rqt_pose_view;/home/camillo/noetic_ws/devel_isolated/rqt_plot;/home/camillo/noetic_ws/devel_isolated/rqt_nav_view;/home/camillo/noetic_ws/devel_isolated/rqt_msg;/home/camillo/noetic_ws/devel_isolated/rqt_moveit;/home/camillo/noetic_ws/devel_isolated/rqt_logger_level;/home/camillo/noetic_ws/devel_isolated/rqt_gui;/home/camillo/noetic_ws/devel_isolated/rqt_graph;/home/camillo/noetic_ws/devel_isolated/rqt_dep;/home/camillo/noetic_ws/devel_isolated/rqt_console;/home/camillo/noetic_ws/devel_isolated/rqt_common_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_bag_plugins;/home/camillo/noetic_ws/devel_isolated/rqt_bag;/home/camillo/noetic_ws/devel_isolated/rqt_action;/home/camillo/noetic_ws/devel_isolated/rostest;/home/camillo/noetic_ws/devel_isolated/roslz4;/home/camillo/noetic_ws/devel_isolated/rosconsole_bridge;/home/camillo/noetic_ws/devel_isolated/resource_retriever;/home/camillo/noetic_ws/devel_isolated/qt_gui_cpp;/home/camillo/noetic_ws/devel_isolated/pluginlib;/home/camillo/noetic_ws/devel_isolated/rosconsole;/home/camillo/noetic_ws/devel_isolated/angles;/home/camillo/noetic_ws/devel_isolated/rosunit;/home/camillo/noetic_ws/devel_isolated/roslaunch;/home/camillo/noetic_ws/devel_isolated/python_qt_binding;/home/camillo/noetic_ws/devel_isolated/roscpp_serialization;/home/camillo/noetic_ws/devel_isolated/rostime;/home/camillo/noetic_ws/devel_isolated/rosservice;/home/camillo/noetic_ws/devel_isolated/rospy;/home/camillo/noetic_ws/devel_isolated/rosparam;/home/camillo/noetic_ws/devel_isolated/roslib;/home/camillo/noetic_ws/devel_isolated/rospack;/home/camillo/noetic_ws/devel_isolated/rosmaster;/home/camillo/noetic_ws/devel_isolated/rosmake;/home/camillo/noetic_ws/devel_isolated/roslisp;/home/camillo/noetic_ws/devel_isolated/roslint;/home/camillo/noetic_ws/devel_isolated/roslang;/home/camillo/noetic_ws/devel_isolated/rosgraph;/home/camillo/noetic_ws/devel_isolated/roscreate;/home/camillo/noetic_ws/devel_isolated/roscpp_traits;/home/camillo/noetic_ws/devel_isolated/roscpp_core;/home/camillo/noetic_ws/devel_isolated/rosclean;/home/camillo/noetic_ws/devel_isolated/rosbuild;/home/camillo/noetic_ws/devel_isolated/rosboost_cfg;/home/camillo/noetic_ws/devel_isolated/rosbash;/home/camillo/noetic_ws/devel_isolated/rosbag_migration_rule;/home/camillo/noetic_ws/devel_isolated/ros_tutorials;/home/camillo/noetic_ws/devel_isolated/ros_environment;/home/camillo/noetic_ws/devel_isolated/ros_core;/home/camillo/noetic_ws/devel_isolated/ros_comm;/home/camillo/noetic_ws/devel_isolated/ros_base;/home/camillo/noetic_ws/devel_isolated/ros;/home/camillo/noetic_ws/devel_isolated/robot;/home/camillo/noetic_ws/devel_isolated/qwt_dependency;/home/camillo/noetic_ws/devel_isolated/qt_gui_py_common;/home/camillo/noetic_ws/devel_isolated/qt_gui;/home/camillo/noetic_ws/devel_isolated/qt_dotgraph;/home/camillo/noetic_ws/devel_isolated/nodelet_core;/home/camillo/noetic_ws/devel_isolated/mk;/home/camillo/noetic_ws/devel_isolated/message_runtime;/home/camillo/noetic_ws/devel_isolated/message_generation;/home/camillo/noetic_ws/devel_isolated/media_export;/home/camillo/noetic_ws/devel_isolated/joint_state_publisher_gui;/home/camillo/noetic_ws/devel_isolated/gl_dependency;/home/camillo/noetic_ws/devel_isolated/geometry_tutorials;/home/camillo/noetic_ws/devel_isolated/geometry;/home/camillo/noetic_ws/devel_isolated/executive_smach;/home/camillo/noetic_ws/devel_isolated/diagnostics;/home/camillo/noetic_ws/devel_isolated/desktop;/home/camillo/noetic_ws/devel_isolated/cpp_common;/home/camillo/noetic_ws/devel_isolated/common_tutorials;/home/camillo/noetic_ws/devel_isolated/common_msgs;/home/camillo/noetic_ws/devel_isolated/class_loader;/home/camillo/noetic_ws/devel_isolated/cmake_modules;/home/camillo/noetic_ws/devel_isolated/bond_core;/home/camillo/noetic_ws/devel_isolated/genpy;/home/camillo/noetic_ws/devel_isolated/gennodejs;/home/camillo/noetic_ws/devel_isolated/genlisp;/home/camillo/noetic_ws/devel_isolated/geneus;/home/camillo/noetic_ws/devel_isolated/gencpp;/home/camillo/noetic_ws/devel_isolated/genmsg;/home/camillo/noetic_ws/devel_isolated/catkin
+[0.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.370s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.370s] -- Using Debian Python package layout
+[0.371s] -- Using empy: /usr/bin/empy
+[0.440s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.440s] -- Call enable_testing()
+[0.442s] -- Using CATKIN_TEST_RESULTS_DIR: /home/camillo/workspace/Learning/build/ur_msgs/test_results
+[0.675s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.675s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.675s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.935s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.936s] -- Found Threads: TRUE  
+[0.940s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.002s] -- catkin 0.8.10
+[1.002s] -- BUILD_SHARED_LIBS is on
+[1.267s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.509s] -- ur_msgs: 7 messages, 3 services
+[1.678s] -- Configuring done
+[1.686s] -- Generating done
+[1.688s] -- Build files have been written to: /home/camillo/workspace/Learning/build/ur_msgs
+[1.692s] Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake /home/camillo/workspace/Learning/src/ur_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/camillo/workspace/Learning/install/ur_msgs
+[1.694s] Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs -- -j32 -l32
+[1.762s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.765s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.772s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.773s] [  0%] Built target std_msgs_generate_messages_py
+[1.774s] [  0%] Built target std_msgs_generate_messages_eus
+[1.778s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.778s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.778s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.779s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.781s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.810s] [  0%] Built target _ur_msgs_generate_messages_check_deps_Digital
+[1.810s] [  0%] Built target _ur_msgs_generate_messages_check_deps_Analog
+[1.811s] [  0%] Built target _ur_msgs_generate_messages_check_deps_SetIO
+[1.811s] [  0%] Built target _ur_msgs_generate_messages_check_deps_IOStates
+[1.811s] [  0%] Built target _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+[1.824s] [  0%] Built target _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
+[1.824s] [  0%] Built target _ur_msgs_generate_messages_check_deps_SetSpeedSliderFraction
+[1.826s] [  0%] Built target _ur_msgs_generate_messages_check_deps_RobotModeDataMsg
+[1.840s] [  0%] Built target _ur_msgs_generate_messages_check_deps_SetPayload
+[1.842s] [  0%] Built target _ur_msgs_generate_messages_check_deps_ToolDataMsg
+[1.879s] [ 11%] [34m[1mGenerating EusLisp code from ur_msgs/Analog.msg[0m
+[1.879s] [ 11%] [34m[1mGenerating Python from MSG ur_msgs/Analog[0m
+[1.879s] [ 11%] [34m[1mGenerating C++ code from ur_msgs/Analog.msg[0m
+[1.879s] [ 11%] [34m[1mGenerating EusLisp code from ur_msgs/Digital.msg[0m
+[1.879s] [ 11%] [34m[1mGenerating Python from MSG ur_msgs/IOStates[0m
+[1.879s] [ 11%] [34m[1mGenerating Lisp code from ur_msgs/Analog.msg[0m
+[1.879s] [ 15%] [34m[1mGenerating Javascript code from ur_msgs/Analog.msg[0m
+[1.879s] [ 16%] [34m[1mGenerating EusLisp code from ur_msgs/RobotModeDataMsg.msg[0m
+[1.880s] [ 18%] [34m[1mGenerating Python from MSG ur_msgs/RobotModeDataMsg[0m
+[1.880s] [ 20%] [34m[1mGenerating C++ code from ur_msgs/RobotModeDataMsg.msg[0m
+[1.880s] [ 24%] [34m[1mGenerating Python from MSG ur_msgs/ToolDataMsg[0m
+[1.880s] [ 24%] [34m[1mGenerating Lisp code from ur_msgs/RobotStateRTMsg.msg[0m
+[1.880s] [ 26%] [34m[1mGenerating EusLisp code from ur_msgs/SetPayload.srv[0m
+[1.880s] [ 28%] [34m[1mGenerating Lisp code from ur_msgs/MasterboardDataMsg.msg[0m
+[1.881s] [ 28%] [34m[1mGenerating C++ code from ur_msgs/Digital.msg[0m
+[1.881s] [ 30%] [34m[1mGenerating C++ code from ur_msgs/ToolDataMsg.msg[0m
+[1.883s] [ 32%] [34m[1mGenerating C++ code from ur_msgs/IOStates.msg[0m
+[1.883s] [ 33%] [34m[1mGenerating Lisp code from ur_msgs/IOStates.msg[0m
+[1.883s] [ 35%] [34m[1mGenerating Python from MSG ur_msgs/Digital[0m
+[1.883s] [ 41%] [34m[1mGenerating EusLisp code from ur_msgs/RobotStateRTMsg.msg[0m
+[1.883s] [ 41%] [34m[1mGenerating Javascript code from ur_msgs/Digital.msg[0m
+[1.883s] [ 41%] [34m[1mGenerating Lisp code from ur_msgs/Digital.msg[0m
+[1.883s] [ 45%] [34m[1mGenerating Python from MSG ur_msgs/MasterboardDataMsg[0m
+[1.883s] [ 45%] [34m[1mGenerating EusLisp code from ur_msgs/MasterboardDataMsg.msg[0m
+[1.883s] [ 49%] [34m[1mGenerating C++ code from ur_msgs/MasterboardDataMsg.msg[0m
+[1.884s] [ 50%] [34m[1mGenerating Javascript code from ur_msgs/IOStates.msg[0m
+[1.884s] [ 50%] [34m[1mGenerating Python code from SRV ur_msgs/SetPayload[0m
+[1.884s] [ 52%] [34m[1mGenerating EusLisp code from ur_msgs/ToolDataMsg.msg[0m
+[1.886s] [ 54%] [34m[1mGenerating Python from MSG ur_msgs/RobotStateRTMsg[0m
+[1.886s] [ 58%] [34m[1mGenerating EusLisp code from ur_msgs/IOStates.msg[0m
+[1.886s] [ 58%] [34m[1mGenerating Javascript code from ur_msgs/RobotStateRTMsg.msg[0m
+[1.887s] [ 60%] [34m[1mGenerating C++ code from ur_msgs/RobotStateRTMsg.msg[0m
+[2.035s] [ 62%] [34m[1mGenerating EusLisp code from ur_msgs/SetSpeedSliderFraction.srv[0m
+[2.062s] [ 67%] [34m[1mGenerating Javascript code from ur_msgs/SetPayload.srv[0m
+[2.063s] [ 67%] [34m[1mGenerating Python code from SRV ur_msgs/SetSpeedSliderFraction[0m
+[2.065s] [ 69%] [34m[1mGenerating EusLisp code from ur_msgs/SetIO.srv[0m
+[2.070s] [ 69%] [34m[1mGenerating EusLisp manifest code for ur_msgs[0m
+[2.116s] [ 71%] [34m[1mGenerating Lisp code from ur_msgs/RobotModeDataMsg.msg[0m
+[2.122s] [ 73%] [34m[1mGenerating Javascript code from ur_msgs/MasterboardDataMsg.msg[0m
+[2.133s] [ 75%] [34m[1mGenerating Javascript code from ur_msgs/ToolDataMsg.msg[0m
+[2.153s] [ 79%] [34m[1mGenerating Javascript code from ur_msgs/SetSpeedSliderFraction.srv[0m
+[2.155s] [ 81%] [34m[1mGenerating C++ code from ur_msgs/SetPayload.srv[0m
+[2.157s] [ 81%] [34m[1mGenerating Javascript code from ur_msgs/RobotModeDataMsg.msg[0m
+[2.178s] [ 84%] [34m[1mGenerating Lisp code from ur_msgs/ToolDataMsg.msg[0m
+[2.178s] [ 84%] [34m[1mGenerating C++ code from ur_msgs/SetIO.srv[0m
+[2.182s] [ 86%] [34m[1mGenerating C++ code from ur_msgs/SetSpeedSliderFraction.srv[0m
+[2.185s] [ 88%] [34m[1mGenerating Python code from SRV ur_msgs/SetIO[0m
+[2.187s] [ 90%] [34m[1mGenerating Lisp code from ur_msgs/SetPayload.srv[0m
+[2.195s] [ 92%] [34m[1mGenerating Javascript code from ur_msgs/SetIO.srv[0m
+[2.203s] [ 96%] [34m[1mGenerating Lisp code from ur_msgs/SetSpeedSliderFraction.srv[0m
+[2.203s] [ 96%] [34m[1mGenerating Lisp code from ur_msgs/SetIO.srv[0m
+[2.286s] [ 96%] Built target ur_msgs_generate_messages_nodejs
+[2.341s] [ 96%] Built target ur_msgs_generate_messages_lisp
+[2.446s] [100%] [34m[1mGenerating Python msg __init__.py for ur_msgs[0m
+[2.446s] [100%] [34m[1mGenerating Python srv __init__.py for ur_msgs[0m
+[2.456s] [100%] Built target ur_msgs_generate_messages_cpp
+[2.591s] [100%] Built target ur_msgs_generate_messages_eus
+[2.635s] [100%] Built target ur_msgs_generate_messages_py
+[2.662s] [100%] Built target ur_msgs_generate_messages
+[2.674s] Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs -- -j32 -l32
+[2.775s] Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs --target tests -- -j32 -l32
+[2.852s] Built target tests
+[2.864s] Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --build /home/camillo/workspace/Learning/build/ur_msgs --target tests -- -j32 -l32
+[2.974s] Invoking command in '/home/camillo/workspace/Learning/build/ur_msgs': /usr/bin/cmake --install /home/camillo/workspace/Learning/build/ur_msgs
+[2.983s] -- Install configuration: ""
+[2.983s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/Analog.msg
+[2.983s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/Digital.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/IOStates.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/RobotStateRTMsg.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/MasterboardDataMsg.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/RobotModeDataMsg.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/msg/ToolDataMsg.msg
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/srv/SetPayload.srv
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction.srv
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/srv/SetIO.srv
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/cmake/ur_msgs-msg-paths.cmake
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetSpeedSliderFractionResponse.h
+[2.984s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/ToolDataMsg.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetPayload.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/IOStates.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetSpeedSliderFraction.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/RobotModeDataMsg.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetIOResponse.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetIORequest.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetIO.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/Digital.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/Analog.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/MasterboardDataMsg.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetPayloadResponse.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/RobotStateRTMsg.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetPayloadRequest.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/include/ur_msgs/SetSpeedSliderFractionRequest.h
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/srv
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/srv/SetSpeedSliderFraction.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/srv/SetIO.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/srv/SetPayload.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/manifest.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/Analog.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/Digital.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/MasterboardDataMsg.l
+[2.985s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/RobotModeDataMsg.l
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/ToolDataMsg.l
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/IOStates.l
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/roseus/ros/ur_msgs/msg/RobotStateRTMsg.l
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/SetIO.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/ur_msgs-srv.asd
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package_SetPayload.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/SetPayload.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/SetSpeedSliderFraction.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package_SetIO.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/srv/_package_SetSpeedSliderFraction.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/RobotStateRTMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_MasterboardDataMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/Analog.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/Digital.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_Analog.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/ToolDataMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_Digital.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/RobotModeDataMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_RobotStateRTMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/IOStates.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_RobotModeDataMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_IOStates.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/ur_msgs-msg.asd
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/MasterboardDataMsg.lisp
+[2.986s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/common-lisp/ros/ur_msgs/msg/_package_ToolDataMsg.lisp
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/_index.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/srv
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/srv/_index.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetSpeedSliderFraction.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetIO.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/srv/SetPayload.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/RobotModeDataMsg.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/ToolDataMsg.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/_index.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/Analog.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/MasterboardDataMsg.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/RobotStateRTMsg.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/IOStates.js
+[2.987s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/gennodejs/ros/ur_msgs/msg/Digital.js
+[3.033s] Listing '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/__init__.py'...
+[3.033s] Listing '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_Analog.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_Digital.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_IOStates.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_MasterboardDataMsg.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_RobotModeDataMsg.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_RobotStateRTMsg.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/_ToolDataMsg.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/msg/__init__.py'...
+[3.033s] Listing '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/srv'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/srv/_SetIO.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/srv/_SetPayload.py'...
+[3.033s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/srv/_SetSpeedSliderFraction.py'...
+[3.034s] Compiling '/home/camillo/workspace/Learning/build/ur_msgs/devel/lib/python3/dist-packages/ur_msgs/srv/__init__.py'...
+[3.035s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs
+[3.035s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/__init__.py
+[3.035s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/_SetPayload.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__init__.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/_SetSpeedSliderFraction.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/_SetIO.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__pycache__
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__pycache__/_SetPayload.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__pycache__/_SetIO.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__pycache__/_SetSpeedSliderFraction.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/srv/__pycache__/__init__.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_ToolDataMsg.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_Digital.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_IOStates.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_Analog.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__init__.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_RobotModeDataMsg.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_RobotStateRTMsg.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/_MasterboardDataMsg.py
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_Analog.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_IOStates.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_RobotModeDataMsg.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/__init__.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_RobotStateRTMsg.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_MasterboardDataMsg.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_Digital.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/msg/__pycache__/_ToolDataMsg.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/__pycache__
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/python3/dist-packages/ur_msgs/__pycache__/__init__.cpython-310.pyc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/lib/pkgconfig/ur_msgs.pc
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/cmake/ur_msgs-msg-extras.cmake
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig.cmake
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig-version.cmake
+[3.036s] -- Installing: /home/camillo/workspace/Learning/install/ur_msgs/share/ur_msgs/package.xml
+[3.038s] Invoked command in '/home/camillo/workspace/Learning/build/ur_msgs' returned '0': /usr/bin/cmake --install /home/camillo/workspace/Learning/build/ur_msgs
